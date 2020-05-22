@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "net.gaiao.gallery",
   "appName": "photo-gallery",
   "bundledWebRuntime": false,
   "npmClient": "npm",

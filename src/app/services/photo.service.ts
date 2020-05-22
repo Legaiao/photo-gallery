@@ -123,7 +123,7 @@ export class PhotoService {
       }
     }
   }
-
+  // Apaga uma foto
   public async deletePicture(photo: Photo, position: number) {
     // Remova esta foto da array de dados de referência Fotos
     this.photos.splice(position, 1);

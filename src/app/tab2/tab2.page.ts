@@ -7,6 +7,7 @@ import { ActionSheetController } from '@ionic/angular';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
+// tslint:disable-next-line: component-class-suffix
 export class Tab2Page {
 
   constructor(
@@ -14,6 +15,7 @@ export class Tab2Page {
     public actionSheetController: ActionSheetController
   ) { }
 
+  // tslint:disable-next-line: use-lifecycle-interface
   ngOnInit() {
     this.photoService.loadSaved();
   }

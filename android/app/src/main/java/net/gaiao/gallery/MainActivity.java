@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package net.gaiao.gallery;
 
 import android.os.Bundle;
 
